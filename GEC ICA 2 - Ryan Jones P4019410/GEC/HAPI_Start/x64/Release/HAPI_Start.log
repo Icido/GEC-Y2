@@ -1,0 +1,41 @@
+﻿  Background.cpp
+  Boss.cpp
+  Bullet.cpp
+  Enemy.cpp
+  Entity.cpp
+  Explosion.cpp
+  main.cpp
+  Player.cpp
+  Rectangle.cpp
+  Sprite.cpp
+  Visualisation.cpp
+  Wall.cpp
+  World.cpp
+  Compiling...
+  Generating Code...
+     Creating library U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_Start.lib and object U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_Start.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+HAPI64.lib(Error.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(Error.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(HapiCore.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(HapiCore.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(HapiMain.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(HapiMain.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(HapiOsSFML.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(HapiOsSFML.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(HapiRendererSFML.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(HapiRendererSFML.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(HapiSoundSFML.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(HapiSoundSFML.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(HapiXInput.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(HapiXInput.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(PerfCounters.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(PerfCounters.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(SFMLFontManager.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(SFMLFontManager.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(stdafx.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(stdafx.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(Utility.obj) : warning LNK4099: PDB 'HAPI_LIB.pdb' was not found with 'HAPI64.lib(Utility.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_LIB.pdb'; linking object as if no debug info
+HAPI64.lib(VideoStream.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(VideoStream.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(Utilities.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(Utilities.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(TimerPriorities.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(TimerPriorities.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(Timer.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(Timer.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(SubtitleStream.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(SubtitleStream.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(Stream.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(Stream.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(MovieImpl.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(MovieImpl.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(Movie.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(Movie.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(Log.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(Log.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(Demuxer.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(Demuxer.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+HAPI64.lib(AudioStream.obj) : warning LNK4099: PDB 'SfeMovie.pdb' was not found with 'HAPI64.lib(AudioStream.obj)' or at 'U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\SfeMovie.pdb'; linking object as if no debug info
+  HAPI_Start.vcxproj -> U:\Desktop\GEC\GEC ICA 2 - Ryan Jones P4019410\GEC\x64\Release\HAPI_Start.exe
+u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\visualisation.cpp(51): warning C6385: Reading invalid data from 'buffer':  the readable size is '_Old_3`4' bytes, but '16' bytes may be read.

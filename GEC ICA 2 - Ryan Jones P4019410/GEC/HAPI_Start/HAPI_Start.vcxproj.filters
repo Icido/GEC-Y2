@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{4ebb8ec9-d128-4786-aabd-5f2be879021e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{6e5eb2fc-dbb4-4983-954e-483cdbd3d093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualisation.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Extra Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector2.h">
+      <Filter>Extra Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualisation.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Extra Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>World</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+      <FILENAME>visualisation.cpp</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'buffer':  the readable size is '_Old_3`4' bytes, but '16' bytes may be read.</DESCRIPTION>
+    <FUNCTION>Visualisation::fastColourClear</FUNCTION>
+    <DECORATED>?fastColourClear@Visualisation@@QEAAXUHAPI_TColour@HAPISPACE@@@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+        <FILENAME>visualisation.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buffer' is a 16 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+        <FILENAME>visualisation.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memcpy' (declared at c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\vcruntime_string.h:40)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+        <FILENAME>visualisation.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an In/Out argument to 'memcpy' (declared at c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\vcruntime_string.h:40)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+        <FILENAME>visualisation.cpp</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an In/Out argument to 'memcpy' (declared at c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\vcruntime_string.h:40)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+        <FILENAME>visualisation.cpp</FILENAME>
+        <LINE>44</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an In/Out argument to 'memcpy' (declared at c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.11.25503\include\vcruntime_string.h:40)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+        <FILENAME>visualisation.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+        <FILENAME>visualisation.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+        <FILENAME>visualisation.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'temp&lt;end')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>u:\desktop\gec\gec ica 2 - ryan jones p4019410\gec\hapi_start\</FILEPATH>
+        <FILENAME>visualisation.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'buffer[15]', (readable range is 0 to 3)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
